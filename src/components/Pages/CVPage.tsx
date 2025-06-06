@@ -1,24 +1,29 @@
-import Header from '../Header'
-import Footer from '../Footer'
-import cvImage from '../../assets/cv.jpg'
+import Header from '../Header';
+import Footer from '../Footer';
+import gabrielImage from '../../assets/gabriel_cv_image.jpg'; // ✅ Ensure this matches the file in /assets
 
 const CVPage = () => {
-    return (
+  return (
     <section className='flex flex-col min-h-screen'>
-        <Header />
-        <div className='align-center text-center justify-center h-190 mx-auto my-10 md:h-201 py-20'>
-            <img src={cvImage} alt="cv" />
-            <h1 className='text-4xl font-bold text-center py-4'>Albert Ankomah Boateng</h1> 
-            <a href="/files/ALBERT_ANKOMAH_BOATENG_RESUME_pdf.pdf" download='ALBERT_ANKOMAH_BOATENG_RESUME_pdf.pdf' className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 font-bold">
-                Download Resume
-            </a>
-        </div>
-        <Footer /> 
+      <Header />
+      <div className='text-center justify-center mx-auto my-10 py-20'>
+        <img
+          src={gabrielImage}
+          alt="Gabriel Owusu writing"
+          className="max-w-md mx-auto rounded-lg shadow-md"
+        />
+        <h1 className='text-4xl font-bold py-6'>Gabriel Owusu</h1>
+        <a
+          href="public/files/GABRIEL_OWUSU_RESUME.pdf"
+          download="Gabriel_Owusu_Resume.pdf"
+          className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
+        >
+          Download CV
+        </a>
+      </div>
+      <Footer />
     </section>
+  );
+};
 
-
-
-  )
-}
-
-export default CVPage
+export default CVPage;
