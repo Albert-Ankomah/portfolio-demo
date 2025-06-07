@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <div className="bg-orange-100 py-10">
@@ -9,7 +8,7 @@ const Footer = () => {
               <a href="https://github.com" target="_blank">
                 <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" className="w-8 h-8 hover:shadow-xl transition duration-300 rounded-full" />
               </a>
-              <a href="https://linkedin.com" target="_blank">
+              <a href="https://www.linkedin.com/in/gabriel-owusu-9965b7137/" target="_blank">
                   <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" className="w-8 h-8 hover:shadow-xl transition duration-300 rounded-full"/>
               </a>
 

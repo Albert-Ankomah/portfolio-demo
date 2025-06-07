@@ -32,26 +32,50 @@ const ResearchPage = () => {
             </p>
         </div>
             
-        <div className='py-6 flex flex-col'>  
-            <span className='font-bold text-2xl tracking-tighter italic'>Thesis</span>
-            <span className='mt-2'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quo ipsa debitis quam tempore voluptate nostrum iusto nihil aut, commodi ad, ab incidunt? Maxime suscipit obcaecati eligendi nihil, blanditiis excepturi.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis placeat iusto quo, mollitia accusantium architecto maxime? Saepe sit vero doloremque fugit officiis, nulla blanditiis voluptate ullam dolores, quas totam quis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi non laborum ea illo neque veniam debitis rem possimus, nihil soluta voluptates, eligendi provident ratione sapiente nam nisi ducimus reprehenderit error.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et fugiat labore. Sapiente repellendus amet earum. Veritatis molestias nobis impedit rerum commodi dolorum eveniet reprehenderit, vitae voluptatem, repellat laudantium accusantium!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laboriosam veniam totam? Pariatur maiores rem est et tempore incidunt sequi, ex quisquam deleniti esse temporibus dignissimos neque eius libero! Est!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo aspernatur fuga ea voluptatibus quidem error quas deleniti et iste, accusantium modi quibusdam magni exercitationem libero nihil eos minima cumque.
-            </span>
-            <span className='mt-2'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quo ipsa debitis quam tempore voluptate nostrum iusto nihil aut, commodi ad, ab incidunt? Maxime suscipit obcaecati eligendi nihil, blanditiis excepturi.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis placeat iusto quo, mollitia accusantium architecto maxime? Saepe sit vero doloremque fugit officiis, nulla blanditiis voluptate ullam dolores, quas totam quis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi non laborum ea illo neque veniam debitis rem possimus, nihil soluta voluptates, eligendi provident ratione sapiente nam nisi ducimus reprehenderit error.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et fugiat labore. Sapiente repellendus amet earum. Veritatis molestias nobis impedit rerum commodi dolorum eveniet reprehenderit, vitae voluptatem, repellat laudantium accusantium!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laboriosam veniam totam? Pariatur maiores rem est et tempore incidunt sequi, ex quisquam deleniti esse temporibus dignissimos neque eius libero! Est!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo aspernatur fuga ea voluptatibus quidem error quas deleniti et iste, accusantium modi quibusdam magni exercitationem libero nihil eos minima cumque.
-            </span>
-        </div>
-        
+        <div className='py-6 flex flex-col'>
+  <span className='font-bold text-2xl tracking-tighter italic'>Thesis</span>
+
+  <span className='mt-2 text-justify'>
+    My dissertation focuses on one of the most pressing challenges in modern healthcare:
+    how we detect, diagnose, and support people living with Alzheimer’s disease and related
+    dementias (ADRDs). As populations age, especially with the rise of the baby boomer generation
+    reaching retirement, healthcare systems face mounting pressure to deliver high-quality, scalable care.
+    Through this research, I aim to leverage AI to improve how we manage chronic neurological conditions.
+  </span>
+
+  <span className='mt-2 text-justify'>
+    I designed a unified framework that combines explainable machine learning and deep learning
+    to detect signs of dementia at the earliest possible stages. Using techniques like multi-level
+    attention and longitudinal neuroimaging, my models help identify and interpret patterns of disease
+    progression that are often missed by traditional tools. Beyond diagnosis, I also explored how
+    conversational AI can offer meaningful support to caregivers during the most demanding phases
+    of care.
+  </span>
+
+  <span className='mt-2 text-justify'>
+    What motivated this research is the urgent need to build smarter health information systems (HIS)
+    that work not just for clinicians, but also for families and patients. With millions of people expected
+    to transition from employer-sponsored insurance to public healthcare systems, the burden of care
+    is increasing. At the same time, many caregivers often unpaid family members, lack the tools and
+    guidance they need to navigate daily challenges.
+  </span>
+
+  <span className='mt-2 text-justify'>
+    This work is guided by three main questions: <br /> (1) How can we detect ADRDs early using AI
+    frameworks that are transparent and trustworthy?<br /> (2) How can we personalize diagnosis and
+    progression tracking through deep learning?<br /> (3) And how can we equip caregivers with intelligent,
+    compassionate AI agents that respond to real-world needs? <br />These questions shaped each
+    phase of my dissertation.
+  </span>
+
+  <span className='mt-2 text-justify'>
+    My goal is not just to contribute to academic literature, but also to provide tools that make a
+    real difference in people’s lives. I believe this research offers a path toward more inclusive,
+    effective, and human-centered healthcare systems,where technology empowers rather than
+    overwhelms, and where compassion is built into every algorithm.
+  </span>
+</div>
+
             <ScrollToTop />
 
             {/* footer */}
