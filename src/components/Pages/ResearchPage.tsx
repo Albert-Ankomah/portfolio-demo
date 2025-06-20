@@ -1,85 +1,85 @@
-import researchImage from "../../assets/research.jpg";
-import newImage from '../../assets/new.jpg'
+import researchImage from "../../assets/research2.jpg";
+import researchImage2 from "../../assets/research1.jpg";
+import researchImage3 from "../../assets/research3.jpg";
+
+// import newImage from '../../assets/new.jpg'
 import Footer from '../Footer'
 import ScrollToTop from '../ScrollToTop'
 import Header from "../Header";
 
 const ResearchPage = () => {
-    return (
-        <div>
-            
-        {/* header */}
-        <Header />
-        
-        {/* body */}
-        <div className='grid md:grid-cols-2 gap-4 py-4 text-center justify-center items-center'>
-            <img src= {researchImage} alt="research" className='w-full max-h-[600px] object-cover'/>
-            <p>
-                <span>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, cumque assumenda? Consectetur architecto ab, minus perspiciatis temporibus possimus exercitationem soluta reprehenderit eveniet natus quaerat ratione inventore aperiam nesciunt velit delectus?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat, delectus sit eius autem maiores voluptas laudantium repellendus fugit quis error, ratione, doloribus suscipit qui explicabo ipsa deserunt ut ullam.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam perferendis eius voluptatibus repellendus voluptate, omnis id incidunt expedita minus dolore. Quisquam excepturi facilis quos doloribus numquam enim officia neque necessitatibus!
-                </span>
-            </p>
-                
-            <img src={newImage} alt="new" />
-            <p>
-                <span>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, cumque assumenda? Consectetur architecto ab, minus perspiciatis temporibus possimus exercitationem soluta reprehenderit eveniet natus quaerat ratione inventore aperiam nesciunt velit delectus?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat, delectus sit eius autem maiores voluptas laudantium repellendus fugit quis error, ratione, doloribus suscipit qui explicabo ipsa deserunt ut ullam.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam perferendis eius voluptatibus repellendus voluptate, omnis id incidunt expedita minus dolore. Quisquam excepturi facilis quos doloribus numquam enim officia neque necessitatibus!
-                </span>
-            </p>
-        </div>
-            
-        <div className='py-6 flex flex-col'>
-  <span className='font-bold text-2xl tracking-tighter italic'>Thesis</span>
+  return (
+    <div>
 
-  <span className='mt-2 text-justify'>
-    My dissertation focuses on one of the most pressing challenges in modern healthcare:
-    how we detect, diagnose, and support people living with Alzheimer’s disease and related
-    dementias (ADRDs). As populations age, especially with the rise of the baby boomer generation
-    reaching retirement, healthcare systems face mounting pressure to deliver high-quality, scalable care.
-    Through this research, I aim to leverage AI to improve how we manage chronic neurological conditions.
-  </span>
+      {/* header */}
+      <Header />
 
-  <span className='mt-2 text-justify'>
-    I designed a unified framework that combines explainable machine learning and deep learning
-    to detect signs of dementia at the earliest possible stages. Using techniques like multi-level
-    attention and longitudinal neuroimaging, my models help identify and interpret patterns of disease
-    progression that are often missed by traditional tools. Beyond diagnosis, I also explored how
-    conversational AI can offer meaningful support to caregivers during the most demanding phases
-    of care.
-  </span>
+      {/* body */}
+      <div className='grid md:grid-cols-2 gap-4 py-4 text-center justify-center items-center'>
+        <img src={researchImage} alt="research" className='w-full max-h-[600px] object-cover' />
+        <p>
+          <span>
+            Information systems (IS), artificial intelligence (AI), and business analytics are deeply intertwined in ways that influence both business and healthcare in today’s data-driven world. My research interest focuses on how we could use leverage various forms of technology with the goal of driving innovation and creating impactful solutions that enhance decision making processes in clinical, corporate, and data governance contexts.
 
-  <span className='mt-2 text-justify'>
-    What motivated this research is the urgent need to build smarter health information systems (HIS)
-    that work not just for clinicians, but also for families and patients. With millions of people expected
-    to transition from employer-sponsored insurance to public healthcare systems, the burden of care
-    is increasing. At the same time, many caregivers often unpaid family members, lack the tools and
-    guidance they need to navigate daily challenges.
-  </span>
+          </span>
+        </p>
+        <img src={researchImage2} alt="research" className='w-full max-h-[600px] object-cover' />
+        <p>
+          <span className='font-bold text-2xl tracking-tighter'>Machine Learning and Healthcare Analytics Stream <br /></span>
+          <span>
+            The integration of AI and ML into healthcare holds a promise of transforming how we diagnose, treat, and manage diseases. My research in this area focuses on improving and augmenting decision making and self management in chronic neurological disease management such as Alzheimer's Disease (AD) and Parkinson's Disease (PD) through AI-powered clinical decision support systems (CDSS). As part of my dissertation research, I am working on multiple studies that focus on AI applications in healthcare, design choices for AI applications and the challenges of adopting digital health innovations. Our primary goal is to theoretically establish how practical technological innovations can enhance healthcare delivery, improve accessibility and elevate quality. I believe that early detection, self management and personalized treatment are crucial for patient care, and I work toward using various ML techniques to assist healthcare professionals in making more informed decisions. My research contributes to the broader discussion on enhancing healthcare outcomes through advanced technologies to improve the efficiency and accuracy of clinical decision-making. <br />
+          </span>
+          <br />
 
-  <span className='mt-2 text-justify'>
-    This work is guided by three main questions: <br /> (1) How can we detect ADRDs early using AI
-    frameworks that are transparent and trustworthy?<br /> (2) How can we personalize diagnosis and
-    progression tracking through deep learning?<br /> (3) And how can we equip caregivers with intelligent,
-    compassionate AI agents that respond to real-world needs? <br />These questions shaped each
-    phase of my dissertation.
-  </span>
 
-  <span className='mt-2 text-justify'>
-    My goal is not just to contribute to academic literature, but also to provide tools that make a
-    real difference in people’s lives. I believe this research offers a path toward more inclusive,
-    effective, and human-centered healthcare systems,where technology empowers rather than
-    overwhelms, and where compassion is built into every algorithm.
-  </span>
-</div>
+          <a
+            href="https://aisel.aisnet.org/hicss-57/hc/process/4/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 text-lg font-medium text-white bg-orange-800 rounded hover:bg-orange-900 transition"
+          >
+            Link to Most Recently Published Paper
+          </a>
 
-            <ScrollToTop />
 
-            {/* footer */}
-            <Footer />
+        </p>
+
+        <img src={researchImage3} alt="new" />
+        <p>
+          <span className='font-bold text-2xl tracking-tighter'> Analytics for Corporate Sustainability and Societal Impact <br /></span>
+          <span>
+            As AI continues to reshape industries, its role in corporate sustainability and societal impact has become increasingly significant. My research in this stream examines how AI can be leveraged to enhance corporate sustainability performance, with a particular focus on the role of the Chief Sustainability Officer (CSO). I investigate how advanced analytics and responsible AI can support sustainable business practices, focusing on the strategic role of Chief Sustainability Officers (CSOs) in aligning organizational goals with environmental, social, and governance (ESG) outcomes. I use machine learning, sentiment analysis, and social media analytics to examine sustainability disclosures, stakeholder engagement, and public response to digital campaigns. This stream reflects my broader interest in the societal implications of AI and contributes to the development of equitable, transparent, and data-driven business ecosystems. <br />
+
+          </span>
+          <br />
+          <a
+            href="https://journals.aom.org/doi/abs/10.5465/AMPROC.2024.28bp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 text-lg font-medium text-white bg-orange-800 rounded hover:bg-orange-900 transition"
+          >
+            Link to Most Recently Published Paper
+          </a>
+
+          <br />
+          <br />
+
+          <a
+            href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/c369e057-20c0-4eb3-a005-045f7170662e/content"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 text-lg font-medium text-white bg-orange-800 rounded hover:bg-orange-900 transition"
+          >
+            Link to Most Recently Published Paper
+          </a>
+        </p>
+
+      </div>
+
+      <ScrollToTop />
+
+      {/* footer */}
+      <Footer />
     </div>
 
   )
