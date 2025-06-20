@@ -24,13 +24,6 @@ const Homepage = () => {
                     Robert C. Vackar College of Business & Entrepreneurship,
                     University of Texas Rio Grande Valley
                     </p>
-
-                {/* <p className='text-gray-800 mt-2 text-2xl font-bold'>
-                    Gabriel Owusu<br />
-                    Ph.D. Candidate, Management Information Systems<br />
-                    Robert C. Vackar College of Business & Entrepreneurship<br />
-                    University of Texas Rio Grande Valley
-                    </p> */}
             </div>
             
             <HomeContentText />

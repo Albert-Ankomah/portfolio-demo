@@ -13,10 +13,11 @@ const MobileNav = () => {
       </SheetTrigger>
       <SheetContent side="right" className="w-64 bg-gray-200 p-6">
         <nav className="flex flex-col items-center justify-center">
-            <Link to = '/' className="links">Home</Link>
-            <Link to = '/research' className="links">Research</Link>
+            <Link to = '/' className="links">About</Link>
+            <Link to = '/research' className="links">Research & Projects</Link>
+            <Link to = '/experience' className="links">Experience</Link>
             <Link to='/personal' className="links">Personal</Link>
-            <Link to='/cv' className="links">CV</Link>
+            <Link to='/cv' className="links">CV & Contact Method</Link>
         </nav>
       </SheetContent>
     </Sheet>

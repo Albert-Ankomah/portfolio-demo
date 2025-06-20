@@ -1,26 +1,38 @@
 const Footer = () => {
   return (
     <div className="bg-orange-100 py-10">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-            <h3 className='text-3xl font-bold tracking-tight italic rounded-full bg-orange-800 text-white text-center'>Asp</h3>
-            
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="https://github.com" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" className="w-8 h-8 hover:shadow-xl transition duration-300 rounded-full" />
-              </a>
-              <a href="https://www.linkedin.com/in/gabriel-owusu-9965b7137/" target="_blank">
-                  <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" className="w-8 h-8 hover:shadow-xl transition duration-300 rounded-full"/>
-              </a>
-
-              <a href="https://twitter.com" target="_blank">
-                  <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" className="w-8 h-8 hover:shadow-xl transition duration-300 rounded-full"/>
-              </a>
-
-              <a href="https://facebook.com" target="_blank">
-                  <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" className="w-8 h-8 shadow-lg hover:shadow-xl transition duration-300 rounded-full"/>
-              </a>
-            </div>
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-end">
+        <div className="flex space-x-4 mt-4 md:mt-0">
+          <a href="https://scholar.google.com/citations?user=DLs2k9IAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png"
+              alt="Google Scholar"
+              className="w-8 h-8 shadow-lg hover:shadow-xl transition duration-300 rounded-full"
+            />
+          </a>
+          <a href="https://github.com/aspirinzamani" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+              alt="GitHub"
+              className="w-8 h-8 hover:shadow-xl transition duration-300 rounded-full"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/gabriel-owusu-9965b7137/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+              alt="LinkedIn"
+              className="w-8 h-8 hover:shadow-xl transition duration-300 rounded-full"
+            />
+          </a>
+          <a href="https://x.com/aspirin_gabriel?s=21" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+              alt="Twitter"
+              className="w-8 h-8 shadow-lg hover:shadow-xl transition duration-300 rounded-full"
+            />
+          </a>
         </div>
+      </div>
     </div>
   )
 }
