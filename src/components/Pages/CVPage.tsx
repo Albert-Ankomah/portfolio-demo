@@ -4,15 +4,15 @@ import gabrielImage from '../../assets/CV_pg.jpg';
 
 const CVPage = () => {
   return (
-    <section className='flex flex-col min-h-screen'>
+    <section className='flex flex-col h-screen'>
       <Header />
-      <div className='text-center justify-center mx-auto my-10 py-20'>
+      <div className='text-center items-center justify-center p-2'>
         <img
           src={gabrielImage}
           alt="Gabriel Owusu writing"
           className="max-w-md mx-auto rounded-lg shadow-md"
         />
-        <h1 className='text-4xl font-bold py-6'>Gabriel Owusu</h1>
+        <h1 className='text-4xl font-bold font-serif py-6'>Gabriel Owusu</h1>
         <a
           href="public/files/GABRIEL_OWUSU_RESUME.pdf"
           download="Gabriel_Owusu_Resume.pdf"

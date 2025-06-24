@@ -63,25 +63,25 @@ const ExperiencePage = () => {
   </p>
 
   <div className="space-y-6">
-    <blockquote className="italic border-l-4 border-orange-800 pl-4">
+    <blockquote className="italic border-l-2 border-orange-800 pl-4">
       “You were very helpful and detailed with each chapter, answered questions, and were very understanding
 and helpful when I had to make up work because of my circumstances. I really appreciate everything you did
 for me and I learned a lot about excel thanks to you.”
       <div className="mt-2 text-sm font-semibold text-gray-700">— Undergraduate Student, INFS 2300</div>
     </blockquote>
 
-    <blockquote className="italic border-l-4 border-orange-800 pl-4">
+    <blockquote className="italic border-l-2 border-orange-800 pl-4">
       “great professor! he was really helpful through the semester and made sure everyone understood.”
       <div className="mt-2 text-sm font-semibold text-gray-700">— Undergraduate Student, INFS 2300</div>
     </blockquote>
 
-    <blockquote className="italic border-l-4 border-orange-800 pl-4">
+    <blockquote className="italic border-l-2 border-orange-800 pl-4">
       “I would easily take this class again with the same professor! He was very understanding the entire
 semesters and made the course content easy to understand.”
       <div className="mt-2 text-sm font-semibold text-gray-700">— Undergraduate Student, INFS 2300</div>
     </blockquote>
 
-    <blockquote className="italic border-l-4 border-orange-800 pl-4">
+    <blockquote className="italic border-l-2 border-orange-800 pl-4">
       “Great class, felt too advanced for me but i managed to keep up since the instructor was very supportive
 and helpful.”
       <div className="mt-2 text-sm font-semibold text-gray-700">— Undergraduate Student, INFS 2300</div>
