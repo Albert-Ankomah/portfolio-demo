@@ -1,5 +1,6 @@
 import Header from "../Header";
 import Footer from "../Footer";
+import ScrollToTop from "../ScrollToTop";
 
 const ExperiencePage = () => {
   return (
@@ -125,6 +126,8 @@ and helpful.”
           <p className="mb-2 text-sm text-gray-500">September 2019 - June 2021</p>
         </section>
       </main>
+
+      <ScrollToTop />
       <Footer />
     </div>
   );

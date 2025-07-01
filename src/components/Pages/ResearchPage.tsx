@@ -15,66 +15,153 @@ const ResearchPage = () => {
       <Header />
 
       {/* body */}
-      <div className='grid md:grid-cols-2 gap-4 py-4 text-center justify-center items-center'>
-        <img src={researchImage} alt="research" className='w-full max-h-[600px] object-cover' />
-        <p>
-          <span>
-            Information systems (IS), artificial intelligence (AI), and business analytics are deeply intertwined in ways that influence both business and healthcare in today’s data-driven world. My research interest focuses on how we could use leverage various forms of technology with the goal of driving innovation and creating impactful solutions that enhance decision making processes in clinical, corporate, and data governance contexts.
+      <div className='mx-auto flex-1 py-4 px-4 md:px-10 lg:px-40'>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 p-6 md:p-8 rounded-xl backdrop-blur-sm transition-all duration-300">
+          <div className="relative w-full md:w-1/2 overflow-hidden rounded-xl aspect-video transition-shadow duration-300 group">
+            <img 
+              src={researchImage} 
+              alt="A visual representation of information systems, AI, and analytics working together" 
+              className="w-full h-auto max-h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-500 ease-out"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          </div> 
 
-          </span>
-        </p>
-        <img src={researchImage2} alt="research" className='w-full max-h-[600px] object-cover' />
-        <p>
-          <span className='font-bold text-2xl tracking-tighter'>Machine Learning and Healthcare Analytics Stream <br /></span>
-          <span>
-            The integration of AI and ML into healthcare holds a promise of transforming how we diagnose, treat, and manage diseases. My research in this area focuses on improving and augmenting decision making and self management in chronic neurological disease management such as Alzheimer's Disease (AD) and Parkinson's Disease (PD) through AI-powered clinical decision support systems (CDSS). As part of my dissertation research, I am working on multiple studies that focus on AI applications in healthcare, design choices for AI applications and the challenges of adopting digital health innovations. Our primary goal is to theoretically establish how practical technological innovations can enhance healthcare delivery, improve accessibility and elevate quality. I believe that early detection, self management and personalized treatment are crucial for patient care, and I work toward using various ML techniques to assist healthcare professionals in making more informed decisions. My research contributes to the broader discussion on enhancing healthcare outcomes through advanced technologies to improve the efficiency and accuracy of clinical decision-making. <br />
-          </span>
-          <br />
+          <div className="w-full md:w-1/2 space-y-4">
+            <h2 className="text-2xl font-bold text-gray-900">Research Focus</h2>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Information systems (IS), artificial intelligence (AI), and business analytics are deeply intertwined, transforming both business and healthcare in today's data-driven world. My research explores how to leverage these technologies to drive innovation and develop impactful solutions that enhance decision-making processes across clinical, corporate, and data governance contexts.
+            </p>
+            <div className="flex flex-wrap gap-2 pt-2">
+              <span className="px-3 py-1 text-sm font-medium rounded-full bg-blue-100 text-blue-800">Information Systems</span>
+              <span className="px-3 py-1 text-sm font-medium rounded-full bg-purple-100 text-purple-800">AI Applications</span>
+              <span className="px-3 py-1 text-sm font-medium rounded-full bg-emerald-100 text-emerald-800">Healthcare Analytics</span>
+            </div>
+          </div>   
+        </div>
+        
+        {/* research 2 */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 p-6 md:p-8 rounded-xl backdrop-blur-sm transition-all duration-300 bg-white/95">
+          <div className="relative w-full md:w-1/2 overflow-hidden rounded-xl aspect-video md:aspect-[4/3] shadow-md transition-shadow duration-300 group hover:shadow-lg">
+            <img 
+              src={researchImage2} 
+              alt="AI and machine learning applications in healthcare diagnostics" 
+              className="w-full h-full object-cover transform group-hover:scale-103 transition-transform duration-500 ease-out"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          </div>
+          
+          <div className="w-full md:w-1/2 space-y-6">
+            <h2 className="text-3xl font-bold text-gray-900 leading-tight">
+              Machine Learning and Healthcare Analytics
+            </h2>
+            
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p>
+                The integration of AI and ML into healthcare promises to transform how we diagnose, treat, and manage diseases. My research focuses on improving decision-making and self-management in chronic neurological diseases (Alzheimer's and Parkinson's) through AI-powered clinical decision support systems (CDSS).
+              </p>
+              
+              <p>
+                As part of my dissertation, I'm investigating:
+              </p>
+              
+              <ul className="list-disc pl-5 space-y-2">
+                <li>AI applications in healthcare delivery</li>
+                <li>Design frameworks for medical AI systems</li>
+                <li>Adoption challenges of digital health innovations</li>
+              </ul>
+              
+              <p>
+                Our goal is to establish how technological innovations can enhance healthcare accessibility and quality, with particular focus on early detection, self-management, and personalized treatment through advanced ML techniques.
+              </p>
+            </div>
+            
+            <div className="flex flex-wrap gap-2 pt-2">
+              <span className="px-3 py-1 text-sm font-medium rounded-full bg-blue-100 text-blue-800">AI in Healthcare</span>
+              <span className="px-3 py-1 text-sm font-medium rounded-full bg-purple-100 text-purple-800">Clinical Decision Support</span>
+              <span className="px-3 py-1 text-sm font-medium rounded-full bg-emerald-100 text-emerald-800">Neurological Diseases</span>
+            </div>
+            
+            <a
+              href="https://aisel.aisnet.org/hicss-57/hc/process/4/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-5 py-3 text-lg font-medium text-white bg-orange-400 rounded-lg hover:bg-orange-500 transition-colors duration-300 shadow-md hover:shadow-lg"
+            >
+              View Most Recent Publication
+              <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clipRule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
 
-
-          <a
-            href="https://aisel.aisnet.org/hicss-57/hc/process/4/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 text-lg font-medium text-white bg-orange-800 rounded hover:bg-orange-900 transition"
-          >
-            Link to Most Recently Published Paper
-          </a>
-
-
-        </p>
-
-        <img src={researchImage3} alt="new" />
-        <p>
-          <span className='font-bold text-2xl tracking-tighter'> Analytics for Corporate Sustainability and Societal Impact <br /></span>
-          <span>
-            As AI continues to reshape industries, its role in corporate sustainability and societal impact has become increasingly significant. My research in this stream examines how AI can be leveraged to enhance corporate sustainability performance, with a particular focus on the role of the Chief Sustainability Officer (CSO). I investigate how advanced analytics and responsible AI can support sustainable business practices, focusing on the strategic role of Chief Sustainability Officers (CSOs) in aligning organizational goals with environmental, social, and governance (ESG) outcomes. I use machine learning, sentiment analysis, and social media analytics to examine sustainability disclosures, stakeholder engagement, and public response to digital campaigns. This stream reflects my broader interest in the societal implications of AI and contributes to the development of equitable, transparent, and data-driven business ecosystems. <br />
-
-          </span>
-          <br />
-          <a
-            href="https://journals.aom.org/doi/abs/10.5465/AMPROC.2024.28bp"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 text-lg font-medium text-white bg-orange-800 rounded hover:bg-orange-900 transition"
-          >
-            Link to Most Recently Published Paper
-          </a>
-
-          <br />
-          <br />
-
-          <a
-            href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/c369e057-20c0-4eb3-a005-045f7170662e/content"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 text-lg font-medium text-white bg-orange-800 rounded hover:bg-orange-900 transition"
-          >
-            Link to Most Recently Published Paper
-          </a>
-        </p>
-
+        {/* research 3 */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 p-6 md:p-8 rounded-xl backdrop-blur-sm transition-all duration-300">
+          <div className="w-full md:w-1/2 overflow-hidden rounded-xl aspect-video md:aspect-[5/4] shadow-lg">
+            <img 
+              src={researchImage3} 
+              alt="AI analytics applications for corporate sustainability and ESG metrics" 
+              className="w-full h-full object-cover transition-transform duration-500 hover:scale-102"
+              loading="lazy"
+            />
+          </div>
+          
+          <div className="w-full md:w-1/2 space-y-6">
+            <h2 className="text-3xl font-bold text-gray-900 tracking-tight">
+              Analytics for Corporate Sustainability and Societal Impact
+            </h2>
+            
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p>
+                As AI reshapes industries, its role in corporate sustainability and societal impact grows increasingly significant. My research examines how AI enhances sustainability performance, with particular focus on the evolving role of Chief Sustainability Officers (CSOs).
+              </p>
+              
+              <div className="space-y-3">
+                <h3 className="font-semibold text-gray-800">Key Research Areas:</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Advanced analytics for ESG (Environmental, Social, Governance) outcomes</li>
+                  <li>Responsible AI in sustainable business practices</li>
+                  <li>Sentiment analysis of sustainability disclosures</li>
+                  <li>Social media analytics for stakeholder engagement</li>
+                </ul>
+              </div>
+              
+              <p>
+                This work contributes to developing equitable, transparent, and data-driven business ecosystems that align organizational goals with societal impact.
+              </p>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4 pt-2">
+              <a
+                href="https://journals.aom.org/doi/abs/10.5465/AMPROC.2024.28bp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center gap-2 px-5 py-3 text-lg font-medium text-white bg-orange-400 rounded-lg hover:bg-orange-500 transition-colors duration-200 shadow hover:shadow-md text-center"
+              >
+                View AOM Conference Paper
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clipRule="evenodd" />
+                </svg>
+              </a>
+              
+              <a
+                href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/c369e057-20c0-4eb3-a005-045f7170662e/content"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center gap-2 px-5 py-3 text-lg font-medium text-white bg-orange-400 rounded-lg hover:bg-orange-500 transition-colors duration-200 shadow hover:shadow-md text-center"
+              >
+                View HICSS Publication
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clipRule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
       </div>
+    </div>
+
 
       <ScrollToTop />
 
