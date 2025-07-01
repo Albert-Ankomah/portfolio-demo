@@ -1,7 +1,7 @@
 const HomeContentText = () => {
   return (
     <div className='justify-center items-center p-4 md:p-4 lg:4  max-w-3xl mx-auto mt-8'>
-          <span className='font-bold font-serif text-2xl tracking-tighter'><br /> Welcome.</span>
+          <span className='font-bold font-serif text-2xl tracking-tighter'><br /> Welcome!</span>
             <p className='text-lg text-gray-600 mt-5'>
                 I’m a Ph.D. candidate in Management Information Systems at the Robert C. Vackar College of Business and Entrepreneurship, 
                 University of Texas Rio Grande Valley, focusing on healthcare information systems. <br />
