@@ -14,6 +14,8 @@ const CVPage = () => {
         <a
           href="/files/CV_Gabriel_Owusu.pdf"
           download="CV_Gabriel_Owusu.pdf"
+          target="_blank"
+          rel="noreferrer"
           className="px-4 py-2 text-lg font-medium text-white bg-orange-400 rounded hover:bg-orange-500 transition"
         >
           Download CV
