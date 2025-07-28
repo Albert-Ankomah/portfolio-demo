@@ -12,7 +12,7 @@ const CVPage = () => {
         </div>
         <h1 className='text-3xl font-bold font-serif py-2'>Gabriel Owusu</h1>
         <a
-          href="public/files/CV_Gabriel_Owusu.pdf"
+          href="/files/CV_Gabriel_Owusu.pdf"
           download="CV_Gabriel_Owusu.pdf"
           className="px-4 py-2 text-lg font-medium text-white bg-orange-400 rounded hover:bg-orange-500 transition"
         >
